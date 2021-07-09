@@ -1,0 +1,98 @@
+  * {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+   /*mustardd color background*/
+  background:#ffdb58;
+}
+
+.header {
+  width: 36%;
+  margin: 50px auto 0px;
+  color: black;
+  background: #d3d3d3 ;
+  /*background changed from grey to light grey*/
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  font-family:cursive;
+}
+.header p
+{
+ 	 text-align: right;
+}
+form, .content {
+  width: 36%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: #ADD8E6;
+ 
+  border-radius: 10px 10px 10px px;
+  color:black;
+  font-family:cursive;
+  text-align: center;
+
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+  color:black;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+  color:black;
+  font-family:cursive;
+
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  color:black;
+  font-family:cursive;
+
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: black;
+  /*background: #5F9EA0;*/
+  background#d3d3d3;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+  font-family:cursive;
+
+
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: black; 
+ /* background: #dff0d8; */
+    background: #ADD8E6;
+	
+ /* border: 1px solid #3c763d;
+  margin-bottom: 20px;*/
+  
+}
